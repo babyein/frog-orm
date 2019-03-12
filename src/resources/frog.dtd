@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT dataSource (property*)>
+
+
+<!ELEMENT property EMPTY>
+<!ATTLIST property
+        name CDATA #REQUIRED
+        value CDATA #REQUIRED
+        >
+<!ATTLIST dataSource
+        type CDATA #IMPLIED
+        >

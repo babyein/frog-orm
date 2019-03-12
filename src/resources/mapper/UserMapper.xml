@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.ord//DTD Mapper 3.0//EN"
+        "F:\Projects\IdeaProjects\FrogORM\src\resources\mybatis-3-config.dtd">
+<mapper namespace="com.frog.mapper.UserMapper">
+    <select id="getUserById" resultType="com.frog.entity.User">
+        select * from user where id = ?
+    </select>
+</mapper>

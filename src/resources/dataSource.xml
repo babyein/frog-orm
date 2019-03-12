@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+    <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+    <property name="url" value="jdbc:mysql://localhost:3306/frogtest?useUnicode=true&amp;characterEncoding=utf-8&amp;serverTimezone=Asia/Shanghai&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+    <property name="username" value="root"/>
+    <property name="password" value="123456"/>
+</database>
